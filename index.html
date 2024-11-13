@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News App</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
 
     <nav>
         <div class="main-nav container flex">
             <a href="#" onclick="reload()" class="company-logo">
-                <img src="./assets/logo.png" alt="company logo">
+                <img src="news.png" alt="company logo">
             </a>
             <div class="nav-links">
                 <ul class="flex">
@@ -25,6 +26,7 @@
                 <input id="search-text" type="text" class="news-input" placeholder="e.g. Science">
                 <button id="search-button" class="search-button">Search</button>
             </div>
+            <button class="login-button" onclick="openLoginPage()">Login</button>
         </div>
     </nav>
     

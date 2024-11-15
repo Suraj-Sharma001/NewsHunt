@@ -19,13 +19,14 @@
                 <h2>Login</h2>
                 <form>
                     <label for="login-username">Username</label>
-                    <input type="text" id="login-username" class="auth-input" placeholder="Enter your username">
+                    <input type="text" id="login-username" class="auth-input" placeholder="Enter your username" required>
                     
                     <label for="login-password">Password</label>
-                    <input type="password" id="login-password" class="auth-input" placeholder="Enter your password">
-                    
+                    <input type="password" id="login-password" class="auth-input" placeholder="Enter your password" required>
+                        
                     <button type="button" onclick="login()" class="auth-submit">Login</button>
                 </form>
+                <p>Don't have an account? <a href="signup.html">Sign up here</a></p>
             </div>
             
             <div id="signup" class="tab-content">
